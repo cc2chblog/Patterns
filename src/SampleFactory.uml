@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cc.sample.patterns.SampleFactory</OriginalElement>
+  <nodes>
+    <node x="54.75" y="197.0">cc.sample.patterns.SampleFactory.GreekPizza</node>
+    <node x="188.38636363636365" y="0.0">cc.sample.patterns.SampleFactory.Pizza</node>
+    <node x="185.67613636363637" y="628.0">cc.sample.patterns.SampleFactory.PizzaFactoryTest</node>
+    <node x="266.85227272727275" y="301.0">cc.sample.patterns.SampleFactory.SamplePizzaFactory</node>
+    <node x="204.75" y="197.0">cc.sample.patterns.SampleFactory.VeggiePizza</node>
+    <node x="360.75" y="197.0">cc.sample.patterns.SampleFactory.ClamPizza</node>
+    <node x="0.0" y="453.0">cc.sample.patterns.SampleFactory.PizzaStore</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cc.sample.patterns.SampleFactory.PizzaStore" target="cc.sample.patterns.SampleFactory.SamplePizzaFactory">
+      <point x="44.25" y="-62.5" />
+      <point x="132.75" y="428.0" />
+      <point x="306.10227272727275" y="428.0" />
+      <point x="-39.25" y="51.0" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.VeggiePizza" target="cc.sample.patterns.SampleFactory.Pizza">
+      <point x="0.0" y="-27.0" />
+      <point x="272.75" y="177.0" />
+      <point x="275.8863636363636" y="177.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.SamplePizzaFactory" target="cc.sample.patterns.SampleFactory.ClamPizza">
+      <point x="19.625" y="-51.0" />
+      <point x="364.97727272727275" y="271.0" />
+      <point x="422.75" y="271.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.SamplePizzaFactory" target="cc.sample.patterns.SampleFactory.VeggiePizza">
+      <point x="-19.625" y="-51.0" />
+      <point x="325.72727272727275" y="271.0" />
+      <point x="272.75" y="271.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.SamplePizzaFactory" target="cc.sample.patterns.SampleFactory.Pizza">
+      <point x="58.875" y="-51.0" />
+      <point x="404.22727272727275" y="281.0" />
+      <point x="495.25" y="281.0" />
+      <point x="495.25" y="167.0" />
+      <point x="345.8863636363636" y="167.0" />
+      <point x="70.0" y="73.5" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.PizzaFactoryTest" target="cc.sample.patterns.SampleFactory.SamplePizzaFactory">
+      <point x="40.25" y="-27.0" />
+      <point x="306.4261363636364" y="603.0" />
+      <point x="384.60227272727275" y="603.0" />
+      <point x="39.25" y="51.0" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.PizzaStore" target="cc.sample.patterns.SampleFactory.Pizza">
+      <point x="-44.25" y="-62.5" />
+      <point x="44.25" y="167.0" />
+      <point x="205.88636363636365" y="167.0" />
+      <point x="-70.0" y="73.5" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.GreekPizza" target="cc.sample.patterns.SampleFactory.Pizza">
+      <point x="0.0" y="-27.0" />
+      <point x="119.75" y="177.0" />
+      <point x="240.88636363636365" y="177.0" />
+      <point x="-35.0" y="73.5" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.ClamPizza" target="cc.sample.patterns.SampleFactory.Pizza">
+      <point x="0.0" y="-27.0" />
+      <point x="422.75" y="177.0" />
+      <point x="310.8863636363636" y="177.0" />
+      <point x="35.0" y="73.5" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.SamplePizzaFactory" target="cc.sample.patterns.SampleFactory.GreekPizza">
+      <point x="-58.875" y="-51.0" />
+      <point x="286.47727272727275" y="281.0" />
+      <point x="119.75" y="281.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="cc.sample.patterns.SampleFactory.PizzaFactoryTest" target="cc.sample.patterns.SampleFactory.PizzaStore">
+      <point x="-40.25" y="-27.0" />
+      <point x="225.92613636363637" y="603.0" />
+      <point x="88.5" y="603.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8504273504273504" x="248.0" y="341.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
